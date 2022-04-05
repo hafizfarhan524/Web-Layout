@@ -1,0 +1,147 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: new-font;
+}
+body{
+	background:gray;
+	animation: anim1 2s;
+}
+
+#container{
+	
+	width: 1000px;
+	
+	margin:20px auto;
+	
+}
+header{
+background:silver;
+width:1000px;
+margin:10px 0;
+border-radius: 5px;
+	
+}
+header h1{
+	color: white;
+	padding:10px;	
+}
+header h1:hover{
+	
+	color: red;
+	font-family:arial;
+}
+
+nav{
+	background:#666;
+	width:1000px;
+	margin:20px 0;
+	border-radius: 5px;
+}
+
+nav li{
+	list-style-type:none;
+	float:left;
+	padding:10px 20px;
+	border-radius: 5px;
+}
+nav li:hover{
+	 
+	 background:brown;
+	 font-family:arial;
+	 color:white;
+}
+main{
+	
+	width:1000px;
+	height:600px;
+	margin:20px 0;
+}
+#sec1{
+	float:left;
+	width:600px;
+}
+article{
+	background:white;
+	border-radius: 5px;
+}
+.title{
+	background:yellow;
+	color: red;
+	padding:10px;
+	font-size:30px;
+	margin:10px 0;
+	border-radius: 5px;
+}
+.description{
+	color:black;
+	padding:10px;
+}
+.metadata{
+	color:gray;
+	padding:10px;
+}
+#sec2{
+	width:350px;
+	float:right;
+	
+}
+.list-heading{
+	font-size:25px;
+	text-align:center;
+	padding:10px;
+}
+.lists{
+	padding:10px;
+	background:silver;
+	margin:10px;
+	border: 1px solid black;
+    transition: padding 0.5s;		
+}
+.lists:hover{
+	background:brown;
+	padding: 5px;
+}
+aside{
+	background:white;
+	padding:10px ;
+	margin:10px 0;
+	border-radius: 5px;
+}
+aside input{
+	height:20px;
+	width:150px;
+	box-shadow: 0 0 5px gray;
+	border: 1px solid black;
+}
+aside input:focus{
+	width:320px;	
+}
+aside button{
+	height:20px;
+	width:150px;
+	margin: 5px;
+}
+aside button:hover{
+	width:320px;
+}
+footer{
+	background:silver;
+	width:1000px;
+	margin:20px o;
+	text-align:center;
+	padding:20px;
+	border-radius: 5px;
+	color: black;
+}
+footer:hover{
+       color:white;
+}
+@keyframes  anim1{
+	
+	from {background:gray;}
+	
+     to {background:black;}
+	
+	
+}
